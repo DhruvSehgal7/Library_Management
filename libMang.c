@@ -1,9 +1,6 @@
-// to the program can add, delete update a book record.
-// As of now students will not create any files but should use various iterative and decisional loops like for, if,else, switch case etc.
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
-// #include <time.h>
 
 char mypass[10] = {"a"};
 int book_count = 0;
@@ -15,15 +12,6 @@ struct libMang
     char AuthorName[20];
 
 } book[10];
-
-// void delay(unsigned int milliseconds)
-// {
-
-//     clock_t start = clock();
-
-//     while ((clock() - start) * 1000 / CLOCKS_PER_SEC < milliseconds)
-//         ;
-// }
 
 void password()
 {
@@ -76,7 +64,7 @@ void star()
 
 void welcome()
 {
-    char str[100] = "Library Management System By Hamid Hussain Siddiqui BCA(2021-24)";
+    char str[100] = "Library Management System By Dhruv Sehgal BCA(2021-24)";
 
     for (int i = 0; i < 30; i++)
     {
